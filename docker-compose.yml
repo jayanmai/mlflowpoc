@@ -1,0 +1,7 @@
+version: 3.3
+services:
+  mlflow:
+    build: ../mlflow/
+  minio:
+    image: minio/minio
+    
